@@ -1,0 +1,52 @@
+.
+├── app
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           ├── java
+│           │   └── com
+│           │       └── ganr
+│           │           └── meetingrecoai
+│           │               ├── data
+│           │               │   ├── AppDatabase.kt
+│           │               │   ├── MeetingDao.kt
+│           │               │   └── MeetingEntity.kt
+│           │               ├── MainActivity.kt
+│           │               ├── manager
+│           │               │   ├── LlmManager.kt
+│           │               │   └── SherpaAsrManager.kt
+│           │               ├── MeetingRecoAIApp.kt
+│           │               ├── ui
+│           │               │   ├── MainScreen.kt
+│           │               │   └── theme
+│           │               │       ├── Color.kt
+│           │               │       ├── Theme.kt
+│           │               │       └── Type.kt
+│           │               └── viewmodel
+│           │                   ├── AiViewModel.kt
+│           │                   └── AsrViewModel.kt
+│           └── res
+│               ├── drawable
+│               │   └── ic_launcher_foreground.xml
+│               ├── mipmap-anydpi-v26
+│               │   └── ic_launcher.xml
+│               └── values
+│                   ├── colors.xml
+│                   ├── strings.xml
+│                   └── themes.xml
+├── build.gradle.kts
+├── .github
+│   └── workflows
+│       └── build_and_release.yml
+├── gradle
+│   ├── libs.versions.toml
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── MeetingRecoAI_tree.txt
+└── settings.gradle.kts
+
+20 directories, 29 files
